@@ -43,6 +43,10 @@
                 display: flex;
                 justify-content: space-between;
             }
+
+            .reverse {
+                flex-direction: row-reverse;
+            }
         }
 
         @media (max-width: 599px) {
@@ -53,6 +57,10 @@
 
             section {
                 margin-top: 5px;
+            }
+
+            article {
+                min-height: 400px;
             }
         }
 
@@ -72,13 +80,13 @@
                 </div>
             </section>
 
-            <section>
-                <div class="image">
-                    <img src="img/02_coding.jpg" alt="coding">
-                </div>
+            <section class="reverse">
                 <article>
 
                 </article>
+                <div class="image">
+                    <img src="img/02_coding.jpg" alt="coding">
+                </div>
             </section>
 
             <section>

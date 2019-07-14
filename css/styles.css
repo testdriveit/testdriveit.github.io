@@ -1,0 +1,55 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.main {
+    margin-top: 105px;
+}
+
+header {
+    width: 70%;
+    min-width: 500px; 
+    height: 100px;
+    background-color: aquamarine;
+    position: fixed;
+    top: 0px;
+}
+
+img {
+    width: 500px;
+    height: 400px;
+}
+
+@media (min-width: 800px) {
+    .root {
+        width: 70%;
+        min-width: 500px;
+        margin: auto;
+    }
+
+    section {
+        margin-top: 5px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .reverse {
+        flex-direction: row-reverse;
+    }
+}
+
+@media (max-width: 799px) {
+    .root {
+        width: 500px;
+        margin: auto;
+    }
+
+    section {
+        margin-top: 5px;
+    }
+
+    article {
+        min-height: 400px;
+    }
+}
